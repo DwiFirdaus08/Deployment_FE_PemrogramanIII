@@ -11,7 +11,7 @@ import { RegisterPage } from "./pages/RegisterPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Deployment_FE_PemrogramanIII/">
       <Routes>
         {/* Public Route */}
         <Route path="/" element={<LoginPage />} />
